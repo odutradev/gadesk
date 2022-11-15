@@ -4,10 +4,10 @@ import styled from 'styled-components'
 export const Container = styled.ul`
 	display: flex;
 	height: 80vh;
-	width: 95%;
+	width: 80%;
 	align-items: center;
 	justify-content: space-around;
-margin: 0 2.5%; 
+margin: 0 10%; 
 	`
 
 export const Card = styled.li`
@@ -33,11 +33,7 @@ background-color: #211F1F;
 			color: #A7A6A6;
 		font-size: 12px
 	}
-	&:hover{
-			width: 30%;
-	height: 65%;
-		transition: 0.5s;
-	}
+
 
 	`
 
@@ -55,14 +51,21 @@ export const Price = styled.h1`
 
 			font-weight: 800;
 	font-size: 40px;
-	 span{
+	 span:nth-child(1){
 		 font-size: 20px;
 
+
+	 }
+	 span:nth-child(2){
+		 font-size: 12px;
+		 font-weight: 200;
+	color: #A7A6A6;
 
 	 }
 	`
 export const Button = styled.button`
 	background-color: ${({theme}) => theme.colors.primary};
+
  color: ${({theme}) => theme.colors.text};
  padding: 10px;
  border: none;

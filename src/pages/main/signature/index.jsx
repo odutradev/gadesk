@@ -9,11 +9,11 @@ const Cards = () => {
 
 			<Card>
 <div class='title'>
-				<Title>Assinatura Padrão</Title>
-				<Description>Perfeito para baixa demanda</Description>
+				<Title>Assinatura Mensal</Title>
+				<Description>1 mês*</Description>
 </div>
 						<Price>
-				<span>R$</span> 49,99
+				<span>R$</span> 59,99<span>/mês</span>
 				</Price>
 
 
@@ -28,11 +28,11 @@ const Cards = () => {
 			</Card>
 					<Card>
 <div class='title'>
-				<Title>Assinatura Premium</Title>
-				<Description>assinatura para alta demanda</Description>
+				<Title>Assinatura Semestral</Title>
+				<Description>6 meses*</Description>
 </div>
 						<Price>
-				<span>R$</span> 79,99
+				<span>R$</span> 39,99<span>/mês</span>
 				</Price>
 
 
@@ -47,11 +47,11 @@ const Cards = () => {
 			</Card>
 			<Card>
 <div class='title'>
-				<Title>Assinatura Premium</Title>
-				<Description>assinatura para alta demanda</Description>
+				<Title>Assinatura Anual</Title>
+				<Description>12 meses*</Description>
 </div>
 						<Price>
-				<span>R$</span> 79,99
+				<span>R$</span> 29,99<span>/mês</span>
 				</Price>
 
 
