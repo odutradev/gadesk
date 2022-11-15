@@ -2,26 +2,30 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-	height: 80vh;
+	height: 65vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
 	.title {
 		height:10vh;
 		width: 100%;
 		text-align: center;
-				
+				justify-content: flex-start;
 	font-size: 30px;
 		font-weight:900
 	}
-	.text{
-		padding: 10px 40px;
-		justify-content: space-between;
-div{		
-	//align-items: flex-start;
-	text-align: justify;
-		flex-direction: column;
+	.cards{
+		width: 100%;
+		padding: 10px 0;
+		justify-content: flex-end;
+
 		display: flex;
-margin: 10px 0 ; 
-}
+flex-direction: column;
+align-items: center;
+
+
+
 	}
 	`
 

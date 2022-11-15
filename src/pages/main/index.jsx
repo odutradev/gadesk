@@ -7,7 +7,7 @@ import Signature from './signature'
 import About from './about'
 import Cards from './cards'
 
-import { Container, Home, Title, SubNavbar} from './styles.js'
+import { Container, Home, Title, SubNavbar, ContainerTitle} from './styles.js'
 
 const Main = () => {
 	return (
@@ -31,20 +31,23 @@ const Main = () => {
 				</div>
 			
 <div id='sobre'>
+	<ContainerTitle>
+		Sobre
+	</ContainerTitle>
 			<About/>
 </div>
 			
 			<div id='assinatura'>			
-			<h1 class="containerTitle">
+			<ContainerTitle>
 				Escolha sua assinatura
-			</h1>
+			</ContainerTitle>
 		<Signature/>
 			</div>
 			
 <div id='work'>
-			<h1 class="containerTitle">
+			<ContainerTitle>
 				Trabalhe conosco
-			</h1>
+			</ContainerTitle>
 			<Work/>
 </div>
 <div class='footer'>
