@@ -32,8 +32,8 @@ flex-direction: column;
 	display: flex;
  padding: 10px;
  &:hover{
-	 	height: 54%;
-	width: 185px;
+	 	height: 50.5%;
+	width: 180.5px;
 	 transition: 0.2s;
  }
  `

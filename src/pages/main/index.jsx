@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Icon from '../../assets/imgs/logo.svg'
+import Team from './team';
 import Navbar from '../../components/navbar'
 import Work from './work'
 import Signature from './signature'
@@ -24,7 +25,7 @@ const Main = () => {
 					<li><a href='#sobre'>Sobre</a></li>
 					<li><a href='#work'>Trabalhe conosco</a></li>
 					<li><a href='#assinatura'>Assinatura</a></li>
-					<li><a href='#'>Equipe</a></li>
+					<li><a href='#team'>Equipe</a></li>
 				</SubNavbar>
 			<div id='produtos'>
 		<Cards />
@@ -43,7 +44,13 @@ const Main = () => {
 			</ContainerTitle>
 		<Signature/>
 			</div>
-			
+		
+<div id='team'>
+			<ContainerTitle>
+				Equipe
+			</ContainerTitle>
+			<Team/>
+</div>
 <div id='work'>
 			<ContainerTitle>
 				Trabalhe conosco
