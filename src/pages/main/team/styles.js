@@ -5,7 +5,7 @@ export const Container = styled.ul`
 	display: flex;
 	height: 80vh;
 
-	widht: 80%;
+	width: 80%;
 margin: 0 10%;
 display:flex;
 justify-content: space-between;

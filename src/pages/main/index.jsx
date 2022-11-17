@@ -7,6 +7,7 @@ import Work from './work'
 import Signature from './signature'
 import About from './about'
 import Cards from './cards'
+import Contact from './contact';
 
 import { Container, Home, Title, SubNavbar, ContainerTitle} from './styles.js'
 
@@ -51,12 +52,11 @@ const Main = () => {
 			</ContainerTitle>
 			<Team/>
 </div>
-<div id='work'>
-			<ContainerTitle>
-				Trabalhe conosco
-			</ContainerTitle>
-			<Work/>
+
+<div id="contact">
+	<Contact/>
 </div>
+
 <div class='footer'>
 			<span></span>
 			<p>Copyright © 2022 </p>
@@ -66,3 +66,13 @@ const Main = () => {
 }
 
 export default Main
+
+
+/*
+<div id='work'>
+			<ContainerTitle>
+				Trabalhe conosco
+			</ContainerTitle>
+			<Work/>
+</div>
+*/
