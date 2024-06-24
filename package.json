@@ -1,8 +1,8 @@
 {
-  "name": "react-typescript",
+  "name": "gadesk-website",
   "version": "1.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "Site de apresentação da empresa gadesk",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
