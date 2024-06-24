@@ -1,17 +1,27 @@
-## Running React on Repl.it
+# GADESK WEBSITE
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Site foi construido para apresentação na FNE (Feira Nacional do Empreendorismo), Junto a equipe ganhadora do 3º lugar nacional, Possui uma apresentação geral da empresa, produtos e planos. Além de funções de carrinho de compras e favoritos.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Paginas
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- home/apresentação
+- vitrine de produtos
+- sobre
+- planos
+- equipe
+- contato
+- carrinho de compras
+- favoritos
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Linguagem de Programação:
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+## Framework & Bibliotecas:
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+  ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+## Outros:
+![vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+## Autores
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- [@odutradev](https://www.github.com/odutradev)
 
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
